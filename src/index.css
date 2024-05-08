@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'IRANSansXV';
+	src: url('./assets/fonts/IRANSansXV.woff');
+}
+:root {
+	font-family: IRANSansXV;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+.MuiTiptap-FieldContainer-root {
+	border-radius: 12px !important;
+}
+
+/* mui-nested-menu IconMenuItem */
+.MuiPaper-root
+	.MuiList-root
+	.MuiButtonBase-root
+	.MuiBox-root
+	.MuiTypography-root {
+	font-size: 0.875rem;
+	font-weight: 500;
+}
